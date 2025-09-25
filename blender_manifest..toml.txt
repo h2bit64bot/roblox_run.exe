@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "roblox_gltf_empty_cleaner"
+version = "1.0.0"
+name = "Roblox GLTF Empty Cleaner"
+tagline = "Remove empty objects from Roblox GLTF imports"
+maintainer = "Cloud Guy <datcloudguy@proton.me>"
+website = "https://linktr.ee/datcloudguy"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
