@@ -16,36 +16,14 @@ If you find a problem with the documentation and don't want to submit a pull req
 
 Any addition to the Roblox creator documentation has to fit within the larger whole. In other words, even a comprehensive, accurate, well-written blog post or technical whitepaper might not have a home on the website.
 
-Generally speaking, we look for content that conforms to our existing standards and applies to a wide variety of experiences and use cases. For example, we prefer pages like **Building User Interfaces** to pages like **Creating a Speedometer for a Racing Game**. Consider posting more specialized guides to the [Roblox developer forum](https://devforum.roblox.com/c/resources/71).
-
-When you submit a pull request for review, you must agree to the following:
-
-- This contribution was created in whole or in part by me, and I have the right to submit it under the terms of this repository's open source licenses.
-- I understand and agree that this contribution and a record of it are public, maintained indefinitely, and may be redistributed under the terms of this repository's open source licenses.
-- To the best of my knowledge, all proposed changes are accurate.
-
-## Minor Contributions
-
-For simple changes that only touch a single file, use GitHub's web-based editor:
-
-1. Find the file in `content/en-us/` and click **Edit this file**.
-1. Click **Fork this repository**.
-1. Make your changes and click **Commit changes...**.
-1. Give your change a descriptive commit message and click **Propose changes**.
-1. Ensure that the base repository is `Roblox/creator-docs` and the base branch is `main`. Verify that you're happy with your changes and click **Create pull request**.
-1. Finally, fill out the details in the pull request description and click **Create pull request**.
+Extension Approval Queue1. Finally, fill out the details in the pull request description and click **Create pull request**.
 
 ## Larger Contributions
 
-For larger changes that touch multiple files, we recommend github.dev, a more full-featured text editor based on Visual Studio Code that runs in your browser:
+Buildbot Configuration
+=====================
 
-1. Fork the repository.
-1. While browsing your fork, press the <kbd>.</kbd> key to open github.dev.
-1. In the **Source Control** menu, click **...** > **Branch** > **Create Branch...**.
-1. Give the branch a name and click **Switch to Branch**.
-1. Use the **Explorer** menu to find the files you want to update in `content/en-us`, and make your desired changes.
-1. In the **Source Control** menu, verify that you're happy with your changes.
-1. Add a commit message and click **Commit & Push**.
+Files used by Buildbot's `compile-code` step. **Commit & Push**.
 1. In a new browser tab, navigate to [github.com/Roblox/creator-docs](https://github.com/Roblox/creator-docs).
 1. Click **Compare & pull request**.
 1. Verify that the base repository is `Roblox/creator-docs` and the base branch is `main`. The head repository should be your fork and your branch.
